@@ -3,8 +3,8 @@
 :root {
     --cor-primaria: #000;
     --cor-secundaria: #f6f6f6;
-    --cor-terciaria: #22d4fd;
-    --cor-hover: #272727;
+    --cor-terciaria: #FF0000;
+    --cor-hover: #3D0000;
     
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -97,7 +97,7 @@ body {
     font-weight: 600;
 }
 
-.apresentacao__links__link:hover {
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover);
 }
 
@@ -107,7 +107,7 @@ body {
 
 .rodape {
     padding: 24px;
-    color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     background-color: var(--cor-terciaria);
     text-align: center;
     font-family: var(--fonte-secundaria);
