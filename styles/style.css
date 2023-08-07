@@ -22,7 +22,9 @@ body {
 }
 
 .cabecalho {
-    padding: 2% 0 0 15%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 32px;
 }
 
 .cabecalho__menu {
@@ -42,6 +44,7 @@ body {
     padding: 8% 15%;
     gap: 82px;
     display:flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
 }
